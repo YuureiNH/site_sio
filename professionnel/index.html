@@ -22,6 +22,7 @@
 			<link rel="stylesheet" href="css/style.css" />
 			<link rel="stylesheet" href="css/style-wide.css" />
 		</noscript>
+                <link rel="stylesheet" href="css/mycss.css" />
 		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 	</head>
@@ -34,7 +35,7 @@
 
 					<!-- Logo -->
 						<div id="logo">
-							<span class="image avatar48"><img src="images/avatar.jpg" alt="" /></span>
+                                                    <span class="image avatar48"><img src="images/plici.jpg" alt="" /></span>
 							<h1 id="title">Entreprise</h1>
 							<p>Pliciweb Solutions</p>
 						</div>
@@ -55,14 +56,17 @@
 							
 							-->
 							<ul>
-								<li><a href="../" class="skel-layers-ignoreHref"><span class="icon fa-home">Accueil</span></a></li>
-								<li><a href="../" class="skel-layers-ignoreHref"><span class="icon fa-arrow-left">Précédent</span></a></li>
-                                                                <br />
-								<li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Présentation</span></a></li>
-								<li><a href="#portfolio" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Personnel</span></a></li>
+								<li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-book">Présentation</span></a></li>
+								<li><a href="#portfolio" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-users">Personnel</span></a></li>
 								<li><a href="#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">Mon rôle</span></a></li>
-								<li><a href="#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Mes projets</span></a></li>
+								<li><a href="#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-gears">Mes projets</span></a></li>
 							</ul>
+                                                        
+                                                        <div>
+                                                            <ul>
+                                                                <li><a href="../" class="skel-layers-ignoreHref"><span class="icon fa-home">Accueil</span></a></li>
+                                                            </ul>
+                                                        </div>
 						</nav>
 						
 				</div>
@@ -71,11 +75,9 @@
 
 					<!-- Social Icons -->
 						<ul class="icons">
-							<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-							<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
-							<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
-							<li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
+							<li><a href="skype:umbrella13010?chat" class="icon fa-skype"><span class="label">Skype</span></a></li>
+							<li><a href="https://www.facebook.com/Yuureidanzanshi" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+                                                        <li><a href="../#contact" class="icon fa-envelope"><span class="label">Email</span></a></li>
 						</ul>
 				
 				</div>
@@ -115,12 +117,14 @@
 					<section id="about" class="three">
 						<div class="container">
 
-							<header>
-								<h2>Mon rôle</h2>
-							</header>
+                                                    <header>
+                                                            <h2>Mon rôle</h2>
+                                                    </header>
 
-                                                        Developeur - apporté une aide au développement tout en me formant à la gestion de tache (temps,analyse,ressources)
-                                                        HTML 5, CSS, PHP, JS, JQUERY.
+                                                    <p>
+                                                        Me former au developpement en entreprise dans l'intégration graphique, application, script dédié au site web.<br>
+                                                        Ainsi que la relation client et gestion de projet qui m'aideront a réalisé mon projet professionel.
+                                                    </p>
                                                         
 					</section>
 			
@@ -131,16 +135,22 @@
 							<header>
 								<h2>Mes projets</h2>
 							</header>
-                                                    <ul>
-                                                        <li>Mail Checker : <a href="Mail_checker.html"> un outil pour scanner les mails d'erreur et nous remontant un bilan</a></li> 
-                                                        <li> Thalamus Skiclinic :  <a href="Thalamus1.html"> génération de facture automatique </a> et <a href="Thalamus2.html"> intégration graphique de la page d'acceuil</a></li> 
-                                                        <li>Leti V2 : <a href="Leti.html"> Mettre a jour les items de leti de la 1.5 a 1.6 de prestashop</a></li> 
-                                                        <li>Direct filet <a href="Directfilet1.html">génération automatique de facture</a> et <a href="Directfilet2.html"> de bon de transport </a> et<a href="Directfilet3.html"> correction de quelque élémement du contenu</a></li>  
-                                                        <li>Module CmsUrlBeautfier : <a href="">Création d'un module Prestashop</a></li> 
-                                                        <li>Autogrill : <a href="Autogrill.html"> Mis à jour du site pour l'année 2015</a></li> 
-                                                        <li>Sonergia : <a href="Sonergia.html"> Désactivation de certain élément inutilisable et redirection</a></li> 
-                                                        <li>Arcane <a href="Arcane.html"> intégration graphique du site pour le passer du logiciel plici à prestashop</a></li> 
-                                                    </ul>
+                                                    <div class="row">
+                                                        <div class="center_project">
+                                                            <div><a href="">Mail Checker</a></div> 
+                                                            <div><a href="">Thalamus Skiclinic Intégration</a></div> 
+                                                            <div><a href="">Thalamus Skiclinic Application</a></div> 
+                                                            <div><a href="">Leti V2</a></div> 
+                                                            <div><a href="">Direct filet</a></div>
+                                                        </div>
+                                                        <div class="center_project">
+                                                            <div><a href="">Module CmsUrlBeautfier</a></div> 
+                                                            <div><a href="">Autogrill</a></div> 
+                                                            <div><a href="">Sonergia</a></div> 
+                                                            <div><a href="">Arcane</a></div> 
+                                                            <div><a href="">404RedirectCollect</a></div> 
+                                                        </div>
+                                                    </div>
 						</div>
 					</section>
 			
