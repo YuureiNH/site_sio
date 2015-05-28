@@ -6,7 +6,7 @@
 -->
 <html>
     <head>
-        <title>Prestashop-addon</title>
+        <title>Prestashop Addon</title>
         <meta http-equiv="content-type" content="text/html; charset=utf-8" />
         <meta name="description" content="" />
         <meta name="keywords" content="" />
@@ -22,10 +22,12 @@
         <link rel="stylesheet" href="css/style.css" />
         <link rel="stylesheet" href="css/style-wide.css" />
         </noscript>
+        <link rel="alternate" type="application/rss+xml" title="Mon flux RSS" href="xml/rss.xml" /> 
         <!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
         <!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
     </head>
     <body>
+
 
         <!-- Header -->
         <div id="header" class="skel-layers-fixed">
@@ -61,6 +63,8 @@
                         <li><a href="#theme" id="theme-link" class="skel-layers-ignoreHref"><span class="fa fa-diamond">Theme</span></a></li>
                         <li><a href="#lien" id="lien-link" class="skel-layers-ignoreHref"><span class="icon fa-external-link">Lien utiles et sources</span></a></li>
                         <li><a href="#flux" id="flux-link" class="skel-layers-ignoreHref"><span class="icon fa-rss">Flux des mises à jours</span></a></li>
+                        <br>
+                        <li><a href="../" class="skel-layers-ignoreHref"><span class="icon fa-home">Accueil</span></a></li>
                     </ul>
                 </nav>
 
@@ -107,7 +111,7 @@
                 <div class="container">
 
                     <header>
-                        <h2>Prestashop-addon</h2>
+                        <h2>Prestashop Addon</h2>
                     </header>
 
                     <p>
@@ -147,7 +151,7 @@
                     <p>
                         Un thème PrestaShop est un ensemble de fichiers que vous pouvez modifier afin de personnaliser la mise en page de votre boutique.<br>
                         Le système de thème de PrestaShop est basé sur un moteur de modèle/template, appelé Smarty.<br>
-                        par défaut il est neutre, avec des variations de gris, ce qui permet aux vendeurs rapidement se lancer, quel que soit leur secteur d'activité.
+                        par défaut il est neutre, avec des variations de gris, ce qui permet aux vendeurs de rapidement se lancer, quel que soit leur secteur d'activité.
                     </p>
                 </div>
             </section>
@@ -159,17 +163,17 @@
                     <header>
                         <h2>Lien utiles et sources</h2>
                     </header>
-                    
+
                     <p>
                         Lien utiles : <br>
                         <a href="https://www.prestashop.com/fr/" target="_blank">Installer prestashop</a><br>
-                        <a href="http://doc.prestashop.com/pages/viewpage.action?pageId=2424836" target="_blank">Guide prestashop</a><br>
-                        <a href="http://doc.prestashop.com/pages/viewpage.action?pageId=3801216" target="_blank">Creer son module</a><br>
-                        <a href="http://doc.prestashop.com/pages/viewpage.action?pageId=4096010" target="_blank">Creer son theme</a><br>
+                        <a href="https://www.prestashop.com/fr/documentation" target="_blank">Guide prestashop</a><br>
+                        <a href="http://doc.prestashop.com/pages/viewpage.action?pageId=20840583" target="_blank">Creer son module</a><br>
+                        <a href="http://doc.prestashop.com/pages/viewpage.action?pageId=15171877" target="_blank">Creer son theme</a><br>
                         <a href="https://validator.prestashop.com/auth/login" target="_blank">Faire valider ses créations ou avoir un kit de base</a><br>
                         <a href="http://addons.prestashop.com/fr/" target="_blank">Place du marché Prestashop-addons</a><br>
                     </p>
-                    
+
                     <small>
                         Sources : <br>
                         <a href="http://fr.wikipedia.org/wiki/PrestaShop"  target="_blank">Prestashop via wikipédia</a><br>
@@ -188,9 +192,7 @@
                         <h2>Flux des mises à jours</h2>
                     </header>
 
-                    <p>
-                        
-                    </p>
+                    <?php include("./rss.php"); ?>
 
                 </div>
             </section>
