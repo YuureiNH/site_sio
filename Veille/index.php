@@ -96,7 +96,7 @@
                     </header>
 
                     <p>
-                        PrestaShop fut créé en 2005 au sein de l'école informatique Epitech par cinq étudiants. Le projet d'origine, traduit en deux langues (français, anglais) portait le nom de phpOpenStore (POS)
+                        PrestaShop fut créé en 2005 au sein de l'école informatique Epitech par cinq étudiants. Le projet d'origine, traduit en deux langues (français, anglais) portait le nom de phpOpenStore (POS),
                         <br>
                         proposant aux marchands à travers sa solution, une plateforme complète disposant des meilleurs outils pour gérer quotidiennement leur e-commerce.
                         <br>
